@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/style.css" />
+  <title>Yousef Essawy</title>
+</head>
+
+<body>
+  <div class="container">
+    <video class="video-loop" autoplay loop muted>
+      <source src="./video-loop.mp4" type="video/mp4" />
+    </video>
+
+    <header class="header">
+      <label class="burger-menu" for="menu">
+        <div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div>
+      </label>
+      <input id="menu" class="burger-menu__checkbox" type="checkbox">
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+          <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+          <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+          <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
+          <li><a href="#clients" class="navigation__link navigation__clients">My Clients</a></li>
+          <li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="toggle">
+        <h3 class="toggle__title">Switch Theme</h3>
+        <input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox" />
+        <label for="toggle" class="toggle__lable"></label>
+      </div>
+    </header>
+
+    <section id="bio" class="bio section">
+      <div class="bio__data">
+        <h1 class="bio__heading">
+          Hi There, I'M A Passionate Software Engineer
+        </h1>
+        <p class="bio__objective">
+          My name is
+          <span class="bio__name">Yousef Essawy</span>, Founder of
+          <a href="https://sllr.co/lumiere-eg/home" class="bio__lumiere">Lumiere Fragrances</a>, Front-End Developer.
+          Passionate about code and captivating
+          scents. Connect with me on
+          <a href="https://www.facebook.com/joessawy/" class="bio__facebook">Facebook</a>,
+          <a href="https://www.linkedin.com/in/yousefessawy/" class="bio__linkedin">LinkedIn</a>,
+          <a href="https://www.instagram.com/joessawy/" class="bio__instagram">Instagram</a>, and <a
+            href="https://twitter.com/joessawy" class="bio__X">X</a>.
+        </p>
+
+        <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+        <a href="./Yousef Essawy.pdf" class="bio__links find-out-link">Download CV <span class="bio__arrow"> ↓
+          </span></a>
+      </div>
+
+      <div class="bio__pic-content">
+        <img class="bio__pic" src="./images/personal-pic.png" alt="image of yousef essawy" />
+      </div>
+    </section>
+
+    <section id="skills" class="skills section section--with-bg">
+      <h2 class="h2-heading">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__item">
+          <h2 class="skills__title">HTML</h2>
+          <span class="skills__years">1 year</span>
+        </li>
+        <li class="skills__item">
+          <h2 class="skills__title">CSS</h2>
+          <span class="skills__years">1 year</span>
+        </li>
+        <li class="skills__item">
+          <h2 class="skills__title">Javascript</h2>
+          <span class="skills__years">1 year</span>
+        </li>
+        <li class="skills__item">
+          <h2 class="skills__title">React</h2>
+          <span class="skills__years">1 year</span>
+        </li>
+        <li class="skills__item">
+          <h2 class="skills__title">Redux</h2>
+          <span class="skills__years">1 year</span>
+        </li>
+        <li class="skills__item">
+          <h2 class="skills__title">React Testing Library</h2>
+          <span class="skills__years">1 year</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="media" class="media section">
+      <video class="media__video" poster="./images/thumbnail.jpg" controls>
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="h2-heading">
+        My Featured <br />
+        Projects
+      </h2>
+      <div class="projects__main">
+        <img class="projects__img" src="./images/project-1.jpg" alt="Quran Tap Extension" />
+        <div class="projects__data">
+          <h3 class="h3-heading">
+            Quran Tap <br />
+            Extension
+          </h3>
+          <p class="projects__description">
+            Quran Tab is an Islamic new tab page that will keep you inspired
+            by a verse from the Quran every time you open a new tab that helps
+            you achieve your 'Khatma" and keeps you connected with the words
+            of Allah.
+          </p>
+          <a href="https://bit.ly/qt—chrome" class="projects__links" target="_blank">Chrome Link</a>
+          <span>-</span>
+          <a href="https://bit.ly/qt—chrome" class="projects__links" target="_blank">Edge Link</a>
+        </div>
+
+        <div class="projects__data">
+          <h3 class="h3-heading">
+            Quran Station <br />
+            Extension
+          </h3>
+          <p class="projects__description">
+            Small extension that gives you access to over 100 stations to help
+            you listen to the Quran from your favorite reciters easily
+            Quran-Station has over 100 stations to help you listen to the
+            Quran from your favorite reciters in a quick and easy way.
+          </p>
+          <a href="https://bit.ly/qt—chrome" class="projects__links" target="_blank">Chrome Link</a>
+          <span>-</span>
+          <a href="https://bit.ly/qs—firefox" class="projects__links" target="_blank">Firefox Link</a>
+          <span>-</span>
+          <a href="https://bit.ly/quran-station-edge" class="projects__links" target="_blank">Edge Link</a>
+        </div>
+        <img class="projects__img" src="./images/project-2.jpg" alt="Quran Station Extension" />
+      </div>
+    </section>
+
+    <section id="clients" class="clients section section--with-bg">
+      <h2 class="h2-heading">
+        What My <br />
+        Clients Says
+      </h2>
+      <div class="client__opinions">
+        <div class="clients__wrapper">
+          <p class="clients__opinion">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+            blanditiis laboriosam deserunt aliquam optio delectus amet
+            accusamus consequatur necessitatibus, hic sint repellendus
+            voluptatibus illum exercitationem non eos ducimus quas velit.
+          </p>
+          <p class="clients__opinion">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem velit dolorem consectetur, porro aliquam ea
+            cupiditate quo modi praesentium hic molestias eveniet pariatur
+            perferendis consequuntur, atque autem rem fuga. Ipsum!
+          </p>
+          <p class="clients__opinion">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laboriosam, error aspernatur iure fuga nulla laudantium vel
+            consequatur, dolorem animi aliquid deserunt impedit praesentium
+            facere temporibus nesciunt ipsam quod eum. Odio!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <p class="contact__description">
+          Feel free to reach out to me any time. I prefer to talk over email,
+          especially since we may be a few time zones away.
+        </p>
+
+        <a class="contact__email" href="mailto:yousefessawy@outlook.com">yousefessawy@outlook.com</a>
+        <div class="contact__socials">
+          <a href="" class="contact__social">
+            <img src="./images/brand/facebook.svg" alt="" />
+          </a>
+          <a href="" class="contact__social">
+            <img src="./images/brand/twitter.svg" alt="" />
+          </a>
+          <a href="" class="contact__social">
+            <img src="./images/brand/instagram.svg" alt="" />
+          </a>
+          <a href="" class="contact__social">
+            <img src="./images/brand/LinkedIn.svg" alt="" />
+          </a>
+          <a href="./images/brand/twitter.svg" class="contact__social">
+            <img src="./images/brand/github.svg" alt="" />
+          </a>
+          <a href="" class="contact__social">
+            <img src="./images/brand/youtube.svg" alt=""">
+            </a>
+          </div>
+        </div>
+
+        <div class=" contact__formContact">
+            <h2 class="h2-heading">
+              Let's Work <br />
+              Together!
+            </h2>
+
+            <form action="results.html">
+              <div class="contact__inputs">
+                <input class="contact__input" type="text" placeholder="Full Name" name="fullname" required />
+                <input class="contact__input" type="tel" placeholder="Phone Number" name="telephone" required
+                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+              </div>
+              <textarea class="contact__input contact__textarea" name="description" id="description" rows="1"
+                placeholder="Your Messsage" required></textarea>
+              <input class="contact__button" value="Send Message" type="submit" />
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">© 2022 By Yousef Essawy</footer>
+  </div>
+</body>
+
+</html>
